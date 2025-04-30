@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Gallery Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Mercedes Car Gallery</h1>
+    <nav>
+      <a href="cars.html">Car Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <p>Explore the best performance cars by Mercedes-AMG.</p>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Mercedes Car Gallery</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="gallery">
+    <section>
+      <h2>C63s Coupe</h2>
+      <img src="images/c63s.webp" alt="C63s Coupe">
+    </section>
+
+    <section>
+      <h2>E63s Sedan</h2>
+      <img src="images/e63s.jpeg" alt="E63s Sedan">
+    </section>
+
+    <section>
+      <h2>GLC63s SUV</h2>
+      <img src="images/glc63s.webp" alt="GLC63s SUV">
+    </section>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cars.html">Car Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <label>Name:<br><input type="text" name="name"></label><br><br>
+      <label>Email:<br><input type="email" name="email"></label><br><br>
+      <label>Message:<br><textarea name="message"></textarea></label><br><br>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.gallery section {
+  margin-bottom: 2rem;
+}
+
+.gallery img {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
