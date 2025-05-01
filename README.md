@@ -31,7 +31,7 @@ Used Arial as a default, clean sans-serif font for readability.
 
 Structure
 
-Simple three-page layout: index.html, gallery.html, contact.html. No frameworks were used.
+Simple two-page layout: index.html, gallery.html, 
 
 Imagery
 
