@@ -2,3 +2,109 @@
   <a class="gallery-button" href="gallery.html">View Gallery</a>
   <a class="gallery-button" href="index.html" style="background-color: #28a745; margin-left: 10px;">Home</a>
 </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery - BitBay Auction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-item {
+      background-color: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .gallery-item h3 {
+      margin: 10px 0 0;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Car Gallery</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#">Cars</a>
+    <a href="#">Contact</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+
+  <div class="container">
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="assets/p1.jpg" alt="McLaren P1">
+        <h3>McLaren P1</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/rarri.jpg" alt="Ferrari F40">
+        <h3>Ferrari F40</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/675LT.jpg" alt="McLaren 675LT">
+        <h3>McLaren 675LT</h3>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Car Sales by Student</p>
+  </footer>
+
+</body>
+</html>
