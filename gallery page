@@ -401,3 +401,21 @@
       text-decoration: none;
       border-radius: 5px;
     }
+ </style>
+</head>
+<body>
+
+  <header>
+    <h1>Car Image Gallery</h1>
+  </header>
+
+  <div class="gallery">
+    <img src="4da91bcf-6c54-4dad-b77b-7df83d6a3da0.png" alt="Mercedes C63 AMG">
+    <img src="04884445-a3fe-489d-ab00-c2599b8f9af3.png" alt="Mercedes GLE 63 Coupe">
+    <img src="98551f78-ceeb-4d06-8291-54071525b16c.png" alt="Mercedes E63 S">
+  </div>
+
+  <a class="back-button" href="index.html">Back to Home</a>
+
+</body>
+</html>
