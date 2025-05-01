@@ -3,65 +3,85 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Car Gallery</title>
+  <title>Student Web Project - Car Sales</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #fafafa;
       margin: 0;
       padding: 0;
+      background-color: #f2f2f2;
     }
 
     header {
       background-color: #333;
       color: white;
+      padding: 20px;
       text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    .container {
       padding: 20px;
     }
 
-    .gallery {
+    .car-listing {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
-      justify-content: center;
-      padding: 30px;
+      justify-content: space-around;
     }
 
-    .gallery img {
-      width: 400px;
-      height: auto;
-      border: 3px solid #ccc;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    }
-
-    .back-button {
-      display: block;
-      width: 150px;
-      margin: 0 auto 30px auto;
-      text-align: center;
+    .car-card {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 300px;
       padding: 10px;
-      background-color: #007BFF;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .car-card img {
+      width: 100%;
+      border-radius: 5px;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Web Project - Car Sales</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
       color: white;
       text-decoration: none;
-      border-radius: 5px;
-    }
-
-  </style>
-</head>
-<body>
-
-  <header>
-    <h1>Car Image Gallery</h1>
-  </header>
-
-  <div class="gallery">
-    <img src="4da91bcf-6c54-4dad-b77b-7df83d6a3da0.png" alt="Mercedes C63 AMG">
-    <img src="04884445-a3fe-489d-ab00-c2599b8f9af3.png" alt="Mercedes GLE 63 Coupe">
-    <img src="98551f78-ceeb-4d06-8291-54071525b16c.png" alt="Mercedes E63 S">
-  </div>
-
-  <a class="back-button" href="index.html">Back to Home</a>
-
-</body>
-</html>
+      margin: 0 15px;
