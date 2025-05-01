@@ -1,78 +1,151 @@
-# 'yourwebsitename'
-[https://rayant123-jpg.github.io/work/]
-( https://'yourlivelink.com')
-![)
-## Introduction
-' Hello my name is rayan taiyyab and this is my webpage for car auctions. '
-## User Experience (UX)
-### User Stories (US)
-'write your users stories/tasks here'
-- **your persona1 story and tasks**
-1. As a [student], I [ want to be confident in making webpages to high standards as i may need that skill in the future so that i am able to design for my own needs and wants rather than be uncertain.]
-**Tasks**
--
-### Design Choices -'change as per your needs include old and revised wireframes '
-![color pallette]('path to the image file for your colour pallet here')
-- I will be using black and grey  colour text against the black and white background colours.
-- 'you notes goes here '
-- **typography**
-- your notes goes here
-- **Structure**
-- 'notes on any templates or framework used'
-- **Imagery**
-- 'notes on where you obtain the images for your website'
-- **Wireframes**
-- 'notes or why and what changes were made during revision'
-![View wireframes here]('path/link to the wireframes goes here')
-## Development Process- 'finished product screenshots'
-### Features
--
-### navigation
--
-### header
--
-### webpage 1
--
-### webpage 2
-###
-###
-###
-### Footer
--
-### Frameworks, Libraries & Programs Used
--
-## Deployment & Local Development
-### Deployment
-- instruction goes here
-### Local Development
-- instruction goes here
-## Testing
-### Automated Testing
-#### W3C Validator
-- 'include images'
-#### CSS Jigsaw validator
-- 'include images here'
-#### Lighthouse
-- **Desktop Report**
--include image/notes here
-- **Mobile Report**
--include image/notes here
-#### Wave??
--
-### Manual Testing
-#### Testing User Stories
-- notes goes here
-#### Full Testing
-Full testing was done on the following devices:
--
-Full testing was done on the following browsers:
--
-#### Full Page Testing
-### Bugs
-#### Solved bugs
-#### Known Bugs
-## Credits/ References
-### Code Used
-### Content
-### Media
-### Research Material
+BitBay Car Auction
+Live Site
+
+Introduction
+This website was created as part of a university project to showcase a simple auction platform for high-end performance and luxury cars. The site features a homepage with listings, a gallery page with images, and a contact page.
+
+User Experience (UX)
+User Stories (UK)
+Persona 1: Rayan (Car Enthusiast)
+
+As a car enthusiast, I want to browse performance cars easily so that I can admire, compare, and possibly purchase them.
+Tasks
+
+Navigate to homepage
+
+View car images
+
+Read car details
+
+Visit the gallery page for more visuals
+
+Design Choices
+
+I will be using white text against dark grey/navy backgrounds.
+
+A clean, minimalist style was used to keep focus on the car images and descriptions.
+
+Typography
+
+Used Arial as a default, clean sans-serif font for readability.
+
+Structure
+
+Simple three-page layout: index.html, gallery.html, contact.html. No frameworks were used.
+
+Imagery
+
+Images were sourced from the internet using placeholder image links (e.g., Carscoops, Pinterest). In a real-world project, they would be local and copyright-cleared.
+
+Wireframes
+
+Original layout was basic; updated wireframes included a gallery button, better spacing and a card-based layout.
+
+Development Process
+Features
+Card-based layout for cars
+
+Navigation bar and footer
+
+Clickable gallery button
+
+Mobile-responsive design (basic)
+
+Navigation
+Navigation links for Home, Cars, Gallery, Contact
+
+Header
+Large site title: "BitBay Auction"
+
+Webpage 1 (index.html)
+Featured cars listed in cards
+
+Webpage 2 (gallery.html)
+High-quality images of car models
+
+
+Footer
+Simple copyright line
+
+Frameworks, Libraries & Programs Used
+HTML5
+
+GitHub for hosting
+
+Deployment & Local Development
+Deployment
+Files uploaded to GitHub repository
+
+Deployed via GitHub Pages (Settings → Pages → Source: main branch/root)
+
+Local Development
+Open the folder in VS Code
+
+Right-click index.html → Open with Live Server (or just double-click)
+
+Testing
+Automated Testing
+W3C Validator
+[✓] No major HTML issues
+(include screenshot if available)
+
+Lighthouse
+Desktop Report
+
+Performance: Good
+Mobile Report
+
+Performance: Basic
+
+Wave
+Not used yet
+
+Manual Testing
+Testing User Stories
+All user tasks were tested manually in the browser
+
+Navigation and image viewing worked as expected
+
+Full Testing
+Devices tested:
+
+Windows laptop (Chrome, Firefox)
+
+iPhone 13 (Safari, Chrome)
+
+Browsers tested:
+
+Chrome
+
+Safari
+
+Full Page Testing
+All pages open correctly
+
+Navigation links work
+
+Images load correctly
+
+Bugs
+Solved bugs
+Gallery button didn't link at first → fixed with correct href
+
+Known Bugs
+On smaller mobile screens, images may stack inconsistently
+
+Gallery page could use better formatting
+
+Credits / References
+Code Used
+All HTML
+
+Content
+Car descriptions and specs are mock data.
+
+Media
+Car images sourced from: Carscoops, European Prestige, Pinterest
+
+Research Material
+W3Schools for HTML/CSS basics
+
+GitHub Pages deployment guide
