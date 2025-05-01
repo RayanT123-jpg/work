@@ -209,3 +209,86 @@
 
     </div>
   </div>
+ <footer>
+    <p>&copy; 2025 Car Sales by Student</p>
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Web Project - Car Sales</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .car-listing {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+    }
+
+    .car-card {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 300px;
+      padding: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .car-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .car-card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .car-card p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .gallery-button {
+      display: block;
+      width: 200px;
+      margin: 30px auto;
+      text-align: center;
+      padding: 10px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
