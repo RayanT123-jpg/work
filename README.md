@@ -8,12 +8,12 @@
 ### User Stories (US)
 'write your users stories/tasks here'
 - **your persona1 story and tasks**
-1. As a [persona], I [want to], [so that]
+1. As a [student], I [ want to be confident in making webpages to high standards as i may need that skill in the future so that i am able to design for my own needs and wants rather than be uncertain.]
 **Tasks**
 -
 ### Design Choices -'change as per your needs include old and revised wireframes '
 ![color pallette]('path to the image file for your colour pallet here')
-- I will be using ______ colour text against the ______background colours.
+- I will be using black and grey  colour text against the black and white background colours.
 - 'you notes goes here '
 - **typography**
 - your notes goes here
